@@ -1,0 +1,11 @@
+DJ Peticiones conectado a Firebase
+
+1. Publica index.html, pedir.html y ambos logos juntos en GitHub Pages.
+2. Abre index.html e inicia sesión con Firebase Authentication.
+3. La primera entrada crea eventos/principal con abierto=true (requiere reglas de administrador).
+4. Comparte el enlace de pedir.html.
+5. Las reglas de Firestore deben coincidir con las del paso 5.
+6. La subida de imágenes las comprime y almacena como datos en configuracion/principal; imágenes muy grandes pueden superar el límite de 1 MiB del documento.
+7. Para usar un dominio github.io, agrégalo a Authentication > Configuración > Dominios autorizados.
+8. La creación anónima de peticiones requiere medidas antispam antes de uso masivo.
+9. No abras los HTML desde file://; usa GitHub Pages o un servidor local.
